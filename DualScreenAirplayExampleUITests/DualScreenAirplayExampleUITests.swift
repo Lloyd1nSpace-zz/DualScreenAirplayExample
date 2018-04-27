@@ -3,7 +3,6 @@
 //  DualScreenAirplayExampleUITests
 //
 //  Created by Lloyd Sykes on 4/24/18.
-//  Copyright © 2018 URBN. All rights reserved.
 //
 
 import XCTest
