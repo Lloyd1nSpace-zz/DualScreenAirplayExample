@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B57FB2C208FBF6A0076E402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57FB2B208FBF6A0076E402 /* AppDelegate.swift */; };
+		0B57FB2E208FBF6A0076E402 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57FB2D208FBF6A0076E402 /* CharacterViewController.swift */; };
+		0B57FB31208FBF6A0076E402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B57FB2F208FBF6A0076E402 /* Main.storyboard */; };
+		0B57FB33208FBF6B0076E402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B57FB32208FBF6B0076E402 /* Assets.xcassets */; };
+		0B57FB36208FBF6B0076E402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B57FB34208FBF6B0076E402 /* LaunchScreen.storyboard */; };
+		0B57FB41208FBF6C0076E402 /* DualScreenAirplayExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57FB40208FBF6C0076E402 /* DualScreenAirplayExampleTests.swift */; };
+		0B57FB4C208FBF6C0076E402 /* DualScreenAirplayExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57FB4B208FBF6C0076E402 /* DualScreenAirplayExampleUITests.swift */; };
+		0B57FB5A208FC3A70076E402 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57FB59208FC3A70076E402 /* Convenience.swift */; };
+		0BA5D45520915A0600B82FFA /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5D45420915A0600B82FFA /* CharacterDetailViewController.swift */; };
+		0BA5D45720917FBF00B82FFA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5D45620917FBF00B82FFA /* Character.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B57FB3D208FBF6C0076E402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B57FB20208FBF6A0076E402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B57FB27208FBF6A0076E402;
+			remoteInfo = DualScreenAirplayExample;
+		};
+		0B57FB48208FBF6C0076E402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B57FB20208FBF6A0076E402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B57FB27208FBF6A0076E402;
+			remoteInfo = DualScreenAirplayExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B57FB28208FBF6A0076E402 /* DualScreenAirplayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualScreenAirplayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B57FB2B208FBF6A0076E402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B57FB2D208FBF6A0076E402 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		0B57FB30208FBF6A0076E402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B57FB32208FBF6B0076E402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B57FB35208FBF6B0076E402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B57FB37208FBF6B0076E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B57FB3C208FBF6C0076E402 /* DualScreenAirplayExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualScreenAirplayExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B57FB40208FBF6C0076E402 /* DualScreenAirplayExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualScreenAirplayExampleTests.swift; sourceTree = "<group>"; };
+		0B57FB42208FBF6C0076E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B57FB47208FBF6C0076E402 /* DualScreenAirplayExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualScreenAirplayExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B57FB4B208FBF6C0076E402 /* DualScreenAirplayExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualScreenAirplayExampleUITests.swift; sourceTree = "<group>"; };
+		0B57FB4D208FBF6C0076E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B57FB59208FC3A70076E402 /* Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		0BA5D45420915A0600B82FFA /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		0BA5D45620917FBF00B82FFA /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B57FB25208FBF6A0076E402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B57FB39208FBF6C0076E402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B57FB44208FBF6C0076E402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B57FB1F208FBF6A0076E402 = {
+			isa = PBXGroup;
+			children = (
+				0B57FB2A208FBF6A0076E402 /* DualScreenAirplayExample */,
+				0B57FB3F208FBF6C0076E402 /* DualScreenAirplayExampleTests */,
+				0B57FB4A208FBF6C0076E402 /* DualScreenAirplayExampleUITests */,
+				0B57FB29208FBF6A0076E402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B57FB29208FBF6A0076E402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B57FB28208FBF6A0076E402 /* DualScreenAirplayExample.app */,
+				0B57FB3C208FBF6C0076E402 /* DualScreenAirplayExampleTests.xctest */,
+				0B57FB47208FBF6C0076E402 /* DualScreenAirplayExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B57FB2A208FBF6A0076E402 /* DualScreenAirplayExample */ = {
+			isa = PBXGroup;
+			children = (
+				0B57FB2B208FBF6A0076E402 /* AppDelegate.swift */,
+				0B57FB2D208FBF6A0076E402 /* CharacterViewController.swift */,
+				0BA5D45420915A0600B82FFA /* CharacterDetailViewController.swift */,
+				0BA5D45620917FBF00B82FFA /* Character.swift */,
+				0B57FB59208FC3A70076E402 /* Convenience.swift */,
+				0B57FB2F208FBF6A0076E402 /* Main.storyboard */,
+				0B57FB32208FBF6B0076E402 /* Assets.xcassets */,
+				0B57FB34208FBF6B0076E402 /* LaunchScreen.storyboard */,
+				0B57FB37208FBF6B0076E402 /* Info.plist */,
+			);
+			path = DualScreenAirplayExample;
+			sourceTree = "<group>";
+		};
+		0B57FB3F208FBF6C0076E402 /* DualScreenAirplayExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B57FB40208FBF6C0076E402 /* DualScreenAirplayExampleTests.swift */,
+				0B57FB42208FBF6C0076E402 /* Info.plist */,
+			);
+			path = DualScreenAirplayExampleTests;
+			sourceTree = "<group>";
+		};
+		0B57FB4A208FBF6C0076E402 /* DualScreenAirplayExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B57FB4B208FBF6C0076E402 /* DualScreenAirplayExampleUITests.swift */,
+				0B57FB4D208FBF6C0076E402 /* Info.plist */,
+			);
+			path = DualScreenAirplayExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B57FB27208FBF6A0076E402 /* DualScreenAirplayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B57FB50208FBF6C0076E402 /* Build configuration list for PBXNativeTarget "DualScreenAirplayExample" */;
+			buildPhases = (
+				0B57FB24208FBF6A0076E402 /* Sources */,
+				0B57FB25208FBF6A0076E402 /* Frameworks */,
+				0B57FB26208FBF6A0076E402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DualScreenAirplayExample;
+			productName = DualScreenAirplayExample;
+			productReference = 0B57FB28208FBF6A0076E402 /* DualScreenAirplayExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B57FB3B208FBF6C0076E402 /* DualScreenAirplayExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B57FB53208FBF6C0076E402 /* Build configuration list for PBXNativeTarget "DualScreenAirplayExampleTests" */;
+			buildPhases = (
+				0B57FB38208FBF6C0076E402 /* Sources */,
+				0B57FB39208FBF6C0076E402 /* Frameworks */,
+				0B57FB3A208FBF6C0076E402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B57FB3E208FBF6C0076E402 /* PBXTargetDependency */,
+			);
+			name = DualScreenAirplayExampleTests;
+			productName = DualScreenAirplayExampleTests;
+			productReference = 0B57FB3C208FBF6C0076E402 /* DualScreenAirplayExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B57FB46208FBF6C0076E402 /* DualScreenAirplayExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B57FB56208FBF6C0076E402 /* Build configuration list for PBXNativeTarget "DualScreenAirplayExampleUITests" */;
+			buildPhases = (
+				0B57FB43208FBF6C0076E402 /* Sources */,
+				0B57FB44208FBF6C0076E402 /* Frameworks */,
+				0B57FB45208FBF6C0076E402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B57FB49208FBF6C0076E402 /* PBXTargetDependency */,
+			);
+			name = DualScreenAirplayExampleUITests;
+			productName = DualScreenAirplayExampleUITests;
+			productReference = 0B57FB47208FBF6C0076E402 /* DualScreenAirplayExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B57FB20208FBF6A0076E402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = URBN;
+				TargetAttributes = {
+					0B57FB27208FBF6A0076E402 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0B57FB3B208FBF6C0076E402 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0B57FB27208FBF6A0076E402;
+					};
+					0B57FB46208FBF6C0076E402 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0B57FB27208FBF6A0076E402;
+					};
+				};
+			};
+			buildConfigurationList = 0B57FB23208FBF6A0076E402 /* Build configuration list for PBXProject "DualScreenAirplayExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B57FB1F208FBF6A0076E402;
+			productRefGroup = 0B57FB29208FBF6A0076E402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B57FB27208FBF6A0076E402 /* DualScreenAirplayExample */,
+				0B57FB3B208FBF6C0076E402 /* DualScreenAirplayExampleTests */,
+				0B57FB46208FBF6C0076E402 /* DualScreenAirplayExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B57FB26208FBF6A0076E402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B57FB36208FBF6B0076E402 /* LaunchScreen.storyboard in Resources */,
+				0B57FB33208FBF6B0076E402 /* Assets.xcassets in Resources */,
+				0B57FB31208FBF6A0076E402 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B57FB3A208FBF6C0076E402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B57FB45208FBF6C0076E402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B57FB24208FBF6A0076E402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B57FB2E208FBF6A0076E402 /* CharacterViewController.swift in Sources */,
+				0BA5D45520915A0600B82FFA /* CharacterDetailViewController.swift in Sources */,
+				0BA5D45720917FBF00B82FFA /* Character.swift in Sources */,
+				0B57FB5A208FC3A70076E402 /* Convenience.swift in Sources */,
+				0B57FB2C208FBF6A0076E402 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B57FB38208FBF6C0076E402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B57FB41208FBF6C0076E402 /* DualScreenAirplayExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B57FB43208FBF6C0076E402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B57FB4C208FBF6C0076E402 /* DualScreenAirplayExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B57FB3E208FBF6C0076E402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B57FB27208FBF6A0076E402 /* DualScreenAirplayExample */;
+			targetProxy = 0B57FB3D208FBF6C0076E402 /* PBXContainerItemProxy */;
+		};
+		0B57FB49208FBF6C0076E402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B57FB27208FBF6A0076E402 /* DualScreenAirplayExample */;
+			targetProxy = 0B57FB48208FBF6C0076E402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B57FB2F208FBF6A0076E402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B57FB30208FBF6A0076E402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B57FB34208FBF6B0076E402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B57FB35208FBF6B0076E402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B57FB4E208FBF6C0076E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B57FB4F208FBF6C0076E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57FB51208FBF6C0076E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J372ALVS;
+				INFOPLIST_FILE = DualScreenAirplayExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = URBN.DualScreenAirplayExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B57FB52208FBF6C0076E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J372ALVS;
+				INFOPLIST_FILE = DualScreenAirplayExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = URBN.DualScreenAirplayExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B57FB54208FBF6C0076E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J372ALVS;
+				INFOPLIST_FILE = DualScreenAirplayExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = URBN.DualScreenAirplayExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualScreenAirplayExample.app/DualScreenAirplayExample";
+			};
+			name = Debug;
+		};
+		0B57FB55208FBF6C0076E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J372ALVS;
+				INFOPLIST_FILE = DualScreenAirplayExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = URBN.DualScreenAirplayExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualScreenAirplayExample.app/DualScreenAirplayExample";
+			};
+			name = Release;
+		};
+		0B57FB57208FBF6C0076E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J372ALVS;
+				INFOPLIST_FILE = DualScreenAirplayExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = URBN.DualScreenAirplayExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DualScreenAirplayExample;
+			};
+			name = Debug;
+		};
+		0B57FB58208FBF6C0076E402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J372ALVS;
+				INFOPLIST_FILE = DualScreenAirplayExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = URBN.DualScreenAirplayExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DualScreenAirplayExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B57FB23208FBF6A0076E402 /* Build configuration list for PBXProject "DualScreenAirplayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57FB4E208FBF6C0076E402 /* Debug */,
+				0B57FB4F208FBF6C0076E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B57FB50208FBF6C0076E402 /* Build configuration list for PBXNativeTarget "DualScreenAirplayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57FB51208FBF6C0076E402 /* Debug */,
+				0B57FB52208FBF6C0076E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B57FB53208FBF6C0076E402 /* Build configuration list for PBXNativeTarget "DualScreenAirplayExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57FB54208FBF6C0076E402 /* Debug */,
+				0B57FB55208FBF6C0076E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B57FB56208FBF6C0076E402 /* Build configuration list for PBXNativeTarget "DualScreenAirplayExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57FB57208FBF6C0076E402 /* Debug */,
+				0B57FB58208FBF6C0076E402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B57FB20208FBF6A0076E402 /* Project object */;
+}
