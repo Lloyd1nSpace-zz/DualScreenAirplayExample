@@ -9,4 +9,5 @@ For more information, check out this [blog post](https://lloydcode.wordpress.com
 
 # Resources
 [Assets](http://metalgear.wikia.com/wiki/Metal_Gear_Wiki)
+
 [Bios](https://www.wikipedia.org)
